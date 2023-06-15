@@ -3,6 +3,7 @@ import NavBar from "./componentes/NavBar/NavBar"
 import ItemListContainer from "./componentes/ItemListContainer/ItemListContainer"
 import Contador from "./componentes/Contador/Contador"
 import Categorias from "./componentes/Categorias/Categorias"
+import Promesas from "./componentes/Promesas/Promesas"
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <TituloPrincipal/>     
       <Contador stock={10} inicial={1}/>
       <Categorias/>
+      <Promesas/>
       
     </>
   )
