@@ -10,7 +10,7 @@ const Contador = ({stock, inicial}) => {
         if(contador > 5) {
             setColor("red");
         } else {
-            setColor("black");
+            setColor("white");
         }
 
     },[contador])
@@ -37,12 +37,12 @@ const Contador = ({stock, inicial}) => {
     
     <div>
     
-    <button onClick = {disminuirContador}> - </button>
+    <button className = 'contButton'onClick = {disminuirContador}> - </button>
     <strong>{contador}</strong>
-    <button onClick = {aumentarContador}> + </button> 
+    <button className = 'contButton'onClick = {aumentarContador}> + </button> 
 
 
-    <button onClick = {agregarAlCarrito} style={{color: color}}> Add to Cart </button>
+    <button className = 'addButton' onClick = {agregarAlCarrito} style={{color: color}}> Add to Cart </button>
 
     </div>
     )

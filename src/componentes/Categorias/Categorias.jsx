@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 
+
 const Categorias = () => {
     const [categoria, setCategoria] = useState("");
 

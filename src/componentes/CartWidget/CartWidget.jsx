@@ -1,7 +1,6 @@
 import './CartWidget.css'
 
-const CartWidget = () => {
-
+const CartWidget = () => { 
   
       return (
     <div>

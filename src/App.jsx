@@ -3,7 +3,7 @@ import NavBar from "./componentes/NavBar/NavBar"
 import ItemListContainer from "./componentes/ItemListContainer/ItemListContainer"
 import Contador from "./componentes/Contador/Contador"
 import Categorias from "./componentes/Categorias/Categorias"
-
+import ItemDetailContainer from "./componentes/ItemDetailContainer/ItemDetailContainer"
 
 
 
@@ -11,16 +11,13 @@ import Categorias from "./componentes/Categorias/Categorias"
 const App = () => {
   return (
     <>
-      <NavBar/>
-      <ItemListContainer greeting = {"Welcome a La Mala"}/>
-      <TituloPrincipal/>     
+      
+      <TituloPrincipal/> 
+      <NavBar/> 
+      <ItemListContainer greeting = {"Welcome to La Mala"}/>   
       <Contador stock={10} inicial={1}/>
-      
       <Categorias/>
-      
-      
-
-      
+      <ItemDetailContainer/>
     </>
   )
 }
