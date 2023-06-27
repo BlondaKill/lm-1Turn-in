@@ -11,10 +11,6 @@ const misProductos = [
     { id: 10, nombre: "aaa", precio: 200, img:"../img/orange2.JPG"}, 
     { id: 11, nombre: "aaa", precio: 200, img:"../img/rose2.JPG"}, 
     { id: 12, nombre: "aaa", precio: 200, img:"../img/J.JPG"}, 
-    { id: 13, nombre: "aaa", precio: 200, img:"../img/1.JPG"}, 
-    { id: 14, nombre: "aaa", precio: 200, img:"../img/mirror.JPG"}, 
-    { id: 15, nombre: "aaa", precio: 200, img:"../img/3.JPG"}, 
-    { id: 16, nombre: "aaa", precio: 200, img:"../img/hair1.JPG"}, 
     
     
     

@@ -1,6 +1,5 @@
 
 
-
 header{
     display: flex;
     align-items: center;
@@ -10,7 +9,7 @@ header{
 
 li{
     display: inline-block;
-    margin: 1rem;
+    
     cursor: pointer;
     
 }

@@ -5,7 +5,7 @@ import CartWidget from '../CartWidget/CartWidget'
 
 const NavBar = () => {
   return (  
-        <Navbar bg="dark" variant="dark">
+        <Navbar bg="black"  variant="dark">
           <Container>
             <Navbar.Brand href="#home">La Mala</Navbar.Brand>
             <Nav className="me-auto">
